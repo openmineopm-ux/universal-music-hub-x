@@ -1,0 +1,67 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Testing
+coverage/
+.nyc_output/
+
+# Next.js
+.next/
+out/
+.vercel/
+
+# Production
+build/
+dist/
+
+# Misc
+.DS_Store
+.env
+.env.local
+.env.*.local
+*.pem
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.log
+*.log
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# IDE
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+.dockerignore
+
+# Cache
+.cache/
+.turbo/
+
+# Environment
+.env
+.env.*.local
+.env.production.local
+.env.development.local
+.env.test.local
+
+# pnpm
+pnpm-lock.yaml
+
+# Lock files
+package-lock.json
+yarn.lock
